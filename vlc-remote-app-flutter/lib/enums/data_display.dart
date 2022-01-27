@@ -1,0 +1,4 @@
+enum DataDisplay {
+    GRID,
+    LIST,
+}

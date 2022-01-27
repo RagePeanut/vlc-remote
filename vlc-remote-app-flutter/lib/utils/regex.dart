@@ -1,0 +1,17 @@
+final RegExp importantNamePartRegex = RegExp(r"(?:^\/?)(.*\d{4}(?!\w)|.+)"),
+             originalTitleRegex = RegExp(r"\(([^)]+)\)$"),
+             yearRegex = RegExp(r"[^\d](1(?:8(?:8[89]|9\d)|9\d{2})|2\d{3})[^\d]"),
+             nonWordRegex = RegExp(r"[^a-zA-Z\u00C0-\u00D6\u00D8-\u00F6\u00F8-\u024F\d']+"),
+             extensionRegex = RegExp(r"\.\w{2,3}$"),
+             zeroHourRegex = RegExp("^0:"),
+             firstCharSlashRegex = RegExp(r"^\/"),
+             jsonpRegex = RegExp(r"^[^(]+\(|\)$"),
+             idRegex = RegExp(r"tt\d{7,}|[1-9]\d*(-[^?]+)?"),
+             fileExtensions = RegExp(
+                r"\.(aac|ac3|as[fx]|avi|a52|bin|bup|b4s|cue|dat|divx|dv|dts|flac|flv|gxf|ifo|mk[av]|mod|mpeg[124]?|mp[1-4g]|mxf|m[124o]v|m2?ts|m3u|m4[ap]|og[gm]|oma|part|pls|spx|srt|ts|vlc|vob|w[am]v|wma|xm|xspf|3g[2p])$",
+                caseSensitive: false,
+             ),
+             nonSimpleLetterRegex = RegExp(r"[^A-Za-z]"),
+             fileNameRegex = RegExp(r"[/\\]([^/\\]*)$"),
+             ipRegex = RegExp(r"^(?:1\d{2}|2(?:[0-4]\d|5[0-5])|[1-9]?\d)\.(?:1\d{2}|2(?:[0-4]\d|5[0-5])|[1-9]?\d)\.(?:[1-9]?\d|1\d{2}|2(?:[0-4]\d|5[0-5]))\.(?:[1-9]?\d|1\d{2}|2(?:[0-4]\d|5[0-5]))$"),
+             portRegex = RegExp(r"^(?:[1-9]\d{0,3}|[1-5]\d{4}|6(?:[0-4]\d{3}|5(?:[0-4]\d{2}|5(?:[0-2]\d|3[0-5]))))$");

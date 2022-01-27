@@ -1,0 +1,133 @@
+{
+  "button": {
+    "power": {
+      "on": "Power ON",
+      "off": "Power OFF"
+    },
+    "screen": "Screen %%number%%",
+    "donate": "Donate",
+    "video_track": "Video Track",
+    "audio_track": "Audio Track",
+    "subtitle_track": "Subtitle Track",
+    "fullscreen": {
+      "on": "Fullscreen ON",
+      "off": "Fullscreen OFF"
+    },
+    "explorer": "Explorer",
+    "playlist": "Playlist",
+    "player": "Player",
+    "save": "SAVE",
+    "confirm": "Confirm",
+    "cancel": "Cancel",
+    "play": "Play",
+    "add_to_playlist": "Add to playlist"
+  },
+  "settings": {
+    "computers": {
+      "title": "Computers",
+      "desc": "The computers linked to the app."
+    },
+    "language": {
+      "title": "Language",
+      "desc": "The language used by the app."
+    },
+    "title": "Settings",
+    "medias": {
+      "title": "Medias",
+      "desc": "Settings related to medias.",
+      "show_adult_posters": {
+        "title": "Show adult posters",
+        "desc": "Adult media posters may contain nudity."
+      },
+      "use_original_title": {
+        "title": "Use original titles",
+        "desc": "Show medias original titles instead of localized titles."
+      },
+      "right_time_indicator": {
+        "title": "Right time indicator",
+        "desc": "What the right time indicator above the progress bar should represent.",
+        "option": {
+          "time_remaining": "Time remaining",
+          "runtime": "Runtime"
+        }
+      },
+      "release_date": {
+        "title": "Release date",
+        "desc": "The release date format."
+      }
+    },
+    "explorer": {
+      "title": "Explorer",
+      "desc": "Settings related to the explorer.",
+      "display_type": {
+        "title": "Display type",
+        "desc": "The way files and directories should be displayed in the explorer.",
+        "option": {
+          "grid": "Grid",
+          "list": "List"
+        }
+      }
+    }
+  },
+  "input": {
+    "name": {
+      "label": "Name *",
+      "hint": "My Computer"
+    },
+    "ip": {
+      "label": "IP Address *"
+    },
+    "vlc_port": {
+      "label": "VLC Port Number *"
+    },
+    "password": {
+      "label": "Password *",
+      "hint": "The password you've configured on VLC"
+    },
+    "companion_port": {
+      "label": "Companion Port Number (default: 27797)"
+    },
+    "_invalid": {
+      "empty": "This field can't be empty.",
+      "port": "Invalid port number.",
+      "ip": "Invalid IP address.",
+      "id": "Invalid ID."
+    },
+    "id": {
+      "label": "Media ID (on IMDb or TMDb)",
+      "hint": "Write the ID or paste the media's page link."
+    }
+  },
+  "switch": {
+    "use_by_default": "Use by default"
+  },
+  "dialog": {
+    "connection": {
+      "currently_connected": "You are currently connected to %%computer%%. Are you sure you want to connect to this other computer ?",
+      "not_connected": "Are you sure you want to connect to this computer ?",
+      "title": "Connect to %%computer%%"
+    },
+    "report": {
+      "title": "Report as wrong media"
+    },
+    "media": {
+      "plot_missing": "No plot description available.",
+      "runtime": "%%hours%%h %%minutes%%min",
+      "runtime_only_hours": "%%hours%%h",
+      "runtime_only_minutes": "%%minutes%%min",
+      "season_episode": "Season %%season%%, Episode %%episode%%"
+    }
+  },
+  "snackbar": {
+    "error": {
+      "media_update": "Failed to update the media, make sure the ID is associated to a media on IMDb or TMDb."
+    }
+  },
+  "other": {
+    "no_poster": "No poster available.",
+    "no_computer": "No computer yet."
+  },
+  "sheet": {
+    "playlist": "Playlist"
+  }
+}

@@ -1,0 +1,133 @@
+{
+  "button": {
+    "power": {
+      "on": "Allumé",
+      "off": "Éteint"
+    },
+    "screen": "Écran %%number%%",
+    "donate": "Faire un don",
+    "video_track": "Piste Vidéo",
+    "audio_track": "Piste Audio",
+    "subtitle_track": "Piste de Sous-Titres",
+    "fullscreen": {
+      "on": "Plein Écran",
+      "off": "Fenêtré"
+    },
+    "explorer": "Explorateur",
+    "playlist": "Playlist",
+    "player": "Lecteur",
+    "save": "ENREGISTRER",
+    "confirm": "",
+    "cancel": "Annuler",
+    "play": "Lire",
+    "add_to_playlist": "Ajouter à la playlist"
+  },
+  "settings": {
+    "computers": {
+      "title": "Ordinateurs",
+      "desc": "Les ordinateurs liés à l'application."
+    },
+    "language": {
+      "title": "Langue",
+      "desc": "La langue utilisée par l'application."
+    },
+    "title": "Paramètres",
+    "medias": {
+      "title": "Médias",
+      "desc": "Paramètres en rapport aux médias.",
+      "show_adult_posters": {
+        "title": "Afficher les posters pour adultes",
+        "desc": "Les posters de médias pour adultes pourraient contenir de la nudité."
+      },
+      "use_original_title": {
+        "title": "Utiliser les titres originaux",
+        "desc": "Afficher les titres originaux des médias au lieu des titres localisés."
+      },
+      "right_time_indicator": {
+        "title": "Indicateur de temps de droite",
+        "desc": "Ce que l'indicateur de temps en haut à droite de la barre de progrès devrait représenter.",
+        "option": {
+          "time_remaining": "Temps restant",
+          "runtime": "Durée"
+        }
+      },
+      "release_date": {
+        "title": "Date de sortie",
+        "desc": "Le format de la date de sortie."
+      }
+    },
+    "explorer": {
+      "title": "Explorateur",
+      "desc": "Paramètres en rapport à l'explorateur.",
+      "display_type": {
+        "title": "Type d'affichage",
+        "desc": "La manière dont les fichiers et répertoires devraient être affichés dans l'explorateur.",
+        "option": {
+          "grid": "Grille",
+          "list": "Liste"
+        }
+      }
+    }
+  },
+  "input": {
+    "name": {
+      "label": "Nom *",
+      "hint": "Mon Ordinateur"
+    },
+    "ip": {
+      "label": "Adresse IP *"
+    },
+    "vlc_port": {
+      "label": "Numéro de Port VLC *"
+    },
+    "password": {
+      "label": "Mot de Passe *",
+      "hint": "Le mot de passe que vous avez configuré sur VLC"
+    },
+    "companion_port": {
+      "label": "Numéro de Port Compagnon (défaut: 27797)"
+    },
+    "_invalid": {
+      "empty": "Ce champ ne peut pas être vide.",
+      "port": "Numéro de port invalide.",
+      "ip": "Adresse IP invalide.",
+      "id": "ID invalide."
+    },
+    "id": {
+      "label": "ID du média (sur IMDb ou TMDb)",
+      "hint": "Écrivez l'ID ou collez le lien de la page de ce média."
+    }
+  },
+  "switch": {
+    "use_by_default": "Utiliser par défaut"
+  },
+  "dialog": {
+    "connection": {
+      "currently_connected": "Vous êtes actuellement connecté à %%computer%%. Êtes-vous sûr de vouloir vous connecter à cet autre ordinateur ?",
+      "not_connected": "Êtes-vous sûr de vouloir vous connecter à cet ordinateur ?",
+      "title": "Se connecter à %%computer%%"
+    },
+    "report": {
+      "title": "Signaler en tant que mauvais média"
+    },
+    "media": {
+      "plot_missing": "Aucune description de l'intrigue disponible.",
+      "runtime": "%%hours%%h %%minutes%%min",
+      "runtime_only_hours": "%%hours%%h",
+      "runtime_only_minutes": "%%minutes%%min",
+      "season_episode": "Saison %%season%%, Épisode %%episode%%"
+    }
+  },
+  "snackbar": {
+    "error": {
+      "media_update": "Échec de la mise à jour du média, assurez-vous de fournir un ID associé à un média sur IMDb ou TMDb."
+    }
+  },
+  "other": {
+    "no_poster": "Aucun poster disponible.",
+    "no_computer": "Aucun ordinateur."
+  },
+  "sheet": {
+    "playlist": "Playlist"
+  }
+}
