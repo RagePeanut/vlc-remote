@@ -1,0 +1,30 @@
+{
+    "name": "vlc-remote-server",
+    "version": "1.0.0",
+    "description": "",
+    "main": "app.js",
+    "scripts": {
+        "start": "node dist/app.js",
+        "dev": "nodemon src/app.ts",
+        "build": "tsc -p .",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "cors": "^2.8.5",
+        "dotenv": "^8.2.0",
+        "express": "^4.17.1",
+        "morgan": "^1.10.0",
+        "moviedb-promise": "^3.1.6"
+    },
+    "devDependencies": {
+        "@types/cors": "^2.8.10",
+        "@types/express": "^4.17.8",
+        "@types/morgan": "^1.9.2",
+        "@types/node": "^14.14.25",
+        "nodemon": "^2.0.7",
+        "ts-node": "^9.1.1",
+        "typescript": "^4.1.3"
+    }
+}

@@ -11,5 +11,5 @@ The mobile app was first written in Flutter. I had to port the app to React Nati
 ## Companion (vlc-remote-companion)
 The companion app is not necessary but improves the experience by making it possible to perform actions only possible from the computer such as moving VLC to another window. It also simplifies the connection process for the mobile app by creating a connexion QR code.
 ![Companion](https://i.gyazo.com/42bb69b9108c9b3ef720a75947df5557.png)
-## Server (vlc-remote-server)
-The server parses file names and interacts with the TMDb API to obtain informations about films being played.
+## API (vlc-remote-api)
+The API parses file names and interacts with the TMDb API to obtain informations about films being played.

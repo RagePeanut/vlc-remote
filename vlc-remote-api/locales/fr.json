@@ -1,0 +1,17 @@
+{
+    "button": {
+        "audio_track": "Piste Audio",
+        "donate": "Donner",
+        "explorer": "Explorateur",
+        "fullscreen_true": "Plein Écran",
+        "fullscreen_false": "Fenêtré",
+        "playlist": "Playlist",
+        "power_true": "Allumé",
+        "power_false": "Éteint",
+        "remove": "Supprimer",
+        "screen_number": "Écran {{number}}",
+        "subtitle_track": "Piste Sous-Titres",
+        "video_track": "Piste Vidéo"
+    },
+    "title": "{{title}} ({{year}})"
+}

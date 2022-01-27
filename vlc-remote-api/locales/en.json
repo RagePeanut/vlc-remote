@@ -1,0 +1,17 @@
+{
+    "button": {
+        "audio_track": "Audio Track",
+        "donate": "Donate",
+        "explorer": "Explorer",
+        "fullscreen_true": "Fullscreen",
+        "fullscreen_false": "Windowed",
+        "playlist": "Playlist",
+        "power_true": "Power ON",
+        "power_false": "Power OFF",
+        "remove": "Remove",
+        "screen_number": "Screen {{number}}",
+        "subtitle_track": "Subtitle Track",
+        "video_track": "Video Track"
+    },
+    "title": "{{title}} ({{year}})"
+}
